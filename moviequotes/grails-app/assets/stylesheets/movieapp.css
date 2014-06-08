@@ -1,0 +1,21 @@
+.header {
+	height: 60px;
+}
+/*override white-space in jquery css to allow movie quote and title wrapping*/
+.ui-listview>li h2, .ui-listview>li p {
+	white-space : normal;
+}
+#addButton {
+	margin-top: 10px;
+}
+#popupAdd-popup {
+	padding: 15px;
+	width: 80%;
+}
+.addButtonContainer {
+	text-align: center;
+}
+#popupDelete-popup {
+	text-align: center;
+}
+		
